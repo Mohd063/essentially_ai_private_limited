@@ -1,16 +1,52 @@
-# essentially_ai_private_limited
+# Essentially AI Private Limited - Flutter Orders Page
 
-A new Flutter project.
+This repository contains a **Flutter implementation of a mobile-responsive 'Orders' page** as part of the internship assignment for Diamond Hands LLP (021.Trade).
 
-## Getting Started
+The project focuses on **UI/UX quality, responsiveness, and clean Flutter code**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📄 Assignment Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Recreate the provided web Orders page in **Flutter for mobile devices**.
+- The UI must be **responsive**, working smoothly on small and large screens.
+- Key features:
+  - Display **open orders** in **card view** on mobile.
+  - Display **table view** on larger screens (tablet/desktop).
+  - Include **filters** (All / Buy / Sell) and a **search box**.
+  - Show **market indicators** with color-coded values.
+  - Implement **cancel buttons** with responsive layout.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Project Structure
+
+essentially_ai_private_limited/
+│
+├─ lib/
+│ ├─ main.dart # Entry point of the app
+│ ├─ models/
+│ │ └─ order.dart # Order model
+│ ├─ data/
+│ │ └─ dummy_orders.dart # Dummy orders data
+│ ├─ screens/
+│ │ └─ orders_page.dart # Orders page UI
+│ └─ widgets/
+│ ├─ custom_chip.dart # Filter chips and search box
+│ ├─ market_chip.dart # Market indicator widget
+│ ├─ order_card.dart # Card view for mobile
+│ └─ order_table.dart # Table view for larger screens
+│
+├─ pubspec.yaml
+└─ README.md
+---
+
+## 🚀 How to Run
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/Mohd063/essentially_ai_private_limited.git
+cd essentially_ai_private_limited
+flutter pub get
+flutter run
