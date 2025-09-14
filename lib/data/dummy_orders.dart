@@ -1,0 +1,46 @@
+import 'package:essentially_ai_private_limited/models/order.dart';
+
+final List<Order> dummyOrders = [
+  Order(
+    id: 'AAA001',
+    time: '08:14:31',
+    client: 'AAA001',
+    ticker: 'RELIANCE',
+    side: 'Buy',
+    product: 'CNC',
+    quantity: '50/100',
+    price: '250.50',
+    isEv: true,
+  ),
+  Order(
+    id: 'AAA003',
+    time: '08:14:31',
+    client: 'AAA003',
+    ticker: 'MRF',
+    side: 'Buy',
+    product: 'NRML',
+    quantity: '10/20',
+    price: '2,700.00',
+  ),
+  Order(
+    id: 'AAA002',
+    time: '08:14:31',
+    client: 'AAA002',
+    ticker: 'ASIANPAINT',
+    side: 'Buy',
+    product: 'NRML',
+    quantity: '10/20',
+    price: '1,500.60',
+    isEv: true,
+  ),
+  Order(
+    id: 'AAA002',
+    time: '08:14:31',
+    client: 'AAA002',
+    ticker: 'TATAINVEST',
+    side: 'Sell',
+    product: 'INTRADAY',
+    quantity: '10/10',
+    price: '2,300.10',
+  ),
+];
